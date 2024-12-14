@@ -1,0 +1,90 @@
+/* Global Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Testimonials Section */
+.testimonials {
+  background: black;
+  padding: 50px 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  color: #f0f0f0;
+}
+
+.testimonials .container {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.testimonials h2 {
+  font-size: 2rem;
+  margin-bottom: 30px;
+  color:#f0f0f0;
+}
+
+.testimonial-slider {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.testimonial {
+  background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
+  border-radius: 8px;
+  padding: 20px;
+  position: relative;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  color: #f9f9f9;
+}
+
+.testimonial:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.testimonial .quote {
+  font-size: 1.2rem;
+  font-style: italic;
+  color: white;
+  margin-bottom: 10px;
+}
+
+.testimonial .author {
+  font-size: 1rem;
+  font-weight: bold;
+  color: #333;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+  .testimonials {
+    padding: 30px 10px;
+  }
+
+  .testimonials h2 {
+    font-size: 1.5rem;
+  }
+
+  .testimonial {
+    padding: 15px;
+  }
+
+  .testimonial .quote {
+    font-size: 1rem;
+  }
+
+  .testimonial .author {
+    font-size: 0.9rem;
+  }
+}

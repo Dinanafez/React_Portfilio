@@ -1,0 +1,15 @@
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="48"
+  height="48"
+  viewBox="0 0 24 24"
+  fill="white"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+  class="feather feather-github"
+>
+  <path d="M16 22.027v-2.87a3.37 3.37 0 0 0-.94-2.617c3.14-.352 6.44-1.53 6.44-6.96a5.44 5.44 0 0 0-1.506-3.814 5.07 5.07 0 0 0-.091-3.852s-1.18-.378-3.87 1.46a13.26 13.26 0 0 0-7.03 0C4.78 3.537 3.6 3.914 3.6 3.914a5.07 5.07 0 0 0-.091 3.852 5.44 5.44 0 0 0-1.506 3.815c0 5.398 3.3 6.576 6.44 6.96a3.37 3.37 0 0 0-.94 2.595v2.871"></path>
+  <path d="M9 20.027c-3 .973-5.5-.266-6.5-2"></path>
+</svg>
