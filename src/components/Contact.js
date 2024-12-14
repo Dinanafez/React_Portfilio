@@ -4,6 +4,7 @@ import contactImg from "../assets/img/contact-img.svg";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 import emailjs from 'emailjs-com'; // Import EmailJS
+import React from "react";
 
 export const Contact = () => {
   const formInitialDetails = {
